@@ -95,7 +95,13 @@
     margin-bottom: 45px; }
     .card__image img {
       width: 160px;
-      height: 134px; }
+      height: 134px;
+      -webkit-transition: width 1s, height 1s, margin-bottom 1s;
+      transition: width 1s, height 1s, margin-bottom 1s; }
+      .card__image img:hover {
+        width: calc(160px + 20%);
+        height: calc(134px + 20%);
+        margin-bottom: -32px; }
   .card__description {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
