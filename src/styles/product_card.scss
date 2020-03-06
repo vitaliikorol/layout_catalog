@@ -23,6 +23,12 @@
     & img {
       width: 160px;
       height: 134px;
+      transition: width 1s, height 1s, margin-bottom 1s;
+      &:hover {
+        width: calc(160px + 20%);
+        height: calc(134px + 20%);
+        margin-bottom: -32px;
+      }
     }
   }
   &__description {
