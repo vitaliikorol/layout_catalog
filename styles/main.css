@@ -146,7 +146,7 @@
   height: 403px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  margin-left: 48px; }
+  margin-left: 0; }
   .card:hover {
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
@@ -268,9 +268,12 @@ body {
   font-size: 11px; }
 
 .main_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-gap: 48px; }
 
 .main {
   max-width: 944px;
