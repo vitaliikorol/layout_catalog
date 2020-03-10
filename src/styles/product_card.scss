@@ -23,6 +23,12 @@
     & img {
       width: 160px;
       height: 134px;
+      transition: 1s;
+      &:hover {
+        transform: scale(1.2);
+        outline: 3px solid #f3f3f3;
+
+      }
     }
   }
   &__description {
@@ -67,6 +73,7 @@
       font-size: 14px;
       line-height: 16px;
       font-weight: 700;
+      transition: 0.5s;
       &:hover {
         color: $moyo-blue;
         box-sizing: border-box;

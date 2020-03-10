@@ -34,6 +34,7 @@
     font-style: normal;
     line-height: 60px;
     text-transform: uppercase;
+    transition: 0.5s;
   }
   &__nav-link:hover {
     color: $moyo-blue;
