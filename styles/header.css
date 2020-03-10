@@ -37,7 +37,9 @@
     font-size: 12px;
     font-style: normal;
     line-height: 60px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
   .header__nav-link:hover {
     color: #00acdc; }
 

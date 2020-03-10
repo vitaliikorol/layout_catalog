@@ -37,7 +37,9 @@
     font-size: 12px;
     font-style: normal;
     line-height: 60px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
   .header__nav-link:hover {
     color: #00acdc; }
 
@@ -102,7 +104,9 @@
     font-size: 12px;
     font-style: normal;
     line-height: 60px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
   .header__nav-link:hover {
     color: #00acdc; }
 
@@ -161,12 +165,12 @@
     .card__image img {
       width: 160px;
       height: 134px;
-      -webkit-transition: width 1s, height 1s, margin-bottom 1s;
-      transition: width 1s, height 1s, margin-bottom 1s; }
+      -webkit-transition: 1s;
+      transition: 1s; }
       .card__image img:hover {
-        width: calc(160px + 20%);
-        height: calc(134px + 20%);
-        margin-bottom: -32px; }
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+        outline: 3px solid #f3f3f3; }
   .card__description {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -216,7 +220,9 @@
       color: #fff;
       font-size: 14px;
       line-height: 16px;
-      font-weight: 700; }
+      font-weight: 700;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
       .card__content-purchase:hover {
         color: #00acdc;
         -webkit-box-sizing: border-box;
